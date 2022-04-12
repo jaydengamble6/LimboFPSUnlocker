@@ -1,10 +1,10 @@
-##
-Rest in piece Finobe.
+## Rest in piece Finobe.
+Hopefully [https://limborevival.ml](my revival) will be good enough for the ORC Community.
 
 ## Usage
-1. Download `injector.exe` and `finobefpsunlocker.dll` into the same folder
-2. Run `injector.exe` before or after joining a Finobe game
+1. Download `injector.exe` and `limbofpsunlocker.dll` into the same folder
+2. Run `injector.exe` before or after joining a Limbo game
 3. Enjoy those [beautiful frames](https://i.imgur.com/vsLf04O.png) 👌
 
 ## Compatability
-It only currently works on 2016 I might add compatability for 2012 soon as I have little experience with C++
+I have no idea.
