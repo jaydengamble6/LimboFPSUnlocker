@@ -53,7 +53,7 @@ void WINAPI DllInit()
 	if (GetModuleHandleA("dxgi.dll"))
 	{
 		/* Scan for DebugGraphicsVsync flag */
-		uintptr_t Flag = (uintptr_t)sigscan::scan("FinobePlayer.exe", "\x74\x10\x80\x3D\x00\x00\x00\x00\x00\xC7", "xxxx????xx"); // 74 10 80 3D ?? ?? ?? ?? 00 C7
+		uintptr_t Flag = (uintptr_t)sigscan::scan("LimboRevival.exe", "\x74\x10\x80\x3D\x00\x00\x00\x00\x00\xC7", "xxxx????xx"); // 74 10 80 3D ?? ?? ?? ?? 00 C7
 		if (!Flag)
 		{
 			MessageBoxA(NULL, "Scan failed", "Error", MB_OK);
@@ -72,7 +72,7 @@ void WINAPI DllInit()
 		SwapChainDesc.BufferCount = 1;
 		SwapChainDesc.BufferDesc.Format = DXGI_FORMAT_R8G8B8A8_UNORM;
 		SwapChainDesc.BufferUsage = DXGI_USAGE_RENDER_TARGET_OUTPUT;
-		SwapChainDesc.OutputWindow = FindWindowW(NULL, L"Finobe"); // finobe hooks FindWindowA lol
+		SwapChainDesc.OutputWindow = FindWindowW(NULL, L"LimboStudio"); // finobe hooks FindWindowA lol
 		SwapChainDesc.SampleDesc.Count = 1;
 		SwapChainDesc.Windowed = TRUE;
 		SwapChainDesc.BufferDesc.ScanlineOrdering = DXGI_MODE_SCANLINE_ORDER_UNSPECIFIED;
@@ -100,7 +100,7 @@ void WINAPI DllInit()
 
 void WINAPI DllExit()
 {
-	FreeLibraryAndExitThread(GetModuleHandleA("finobefpsunlocker.dll"), 0);
+	FreeLibraryAndExitThread(GetModuleHandleA("limbofpsunlocker.dll"), 0);
 }
 
 BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved)

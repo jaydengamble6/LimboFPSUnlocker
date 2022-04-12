@@ -43,10 +43,10 @@ void pause()
 	getchar();
 } 
 
-#define TITLE			"finobefpsunlocker Injector"
-#define PROCESS			"FinobePlayer.exe"
-#define APPLICATION		"Finobe"
-#define TARGET			"finobefpsunlocker.dll"
+#define TITLE			"LimboFPSUnlocker Injector"
+#define PROCESS			"LimboRevival.exe"
+#define APPLICATION		"LimboStudio"
+#define TARGET			"limbofpsunlocker.dll"
 #define WAITINTERVAL	100
 #define WAITFORWINDOW	FALSE
 
