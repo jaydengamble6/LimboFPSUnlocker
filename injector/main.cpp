@@ -44,8 +44,8 @@ void pause()
 } 
 
 #define TITLE			"LimboFPSUnlocker Injector"
-#define PROCESS			"LimboRevival.exe"
-#define APPLICATION		"LimboStudio"
+#define PROCESS			"LimboPlayer.exe"
+#define APPLICATION		"ROBLOX"
 #define TARGET			"limbofpsunlocker.dll"
 #define WAITINTERVAL	100
 #define WAITFORWINDOW	FALSE
