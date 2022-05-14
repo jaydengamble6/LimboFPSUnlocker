@@ -1,5 +1,5 @@
 ## Rest in piece Finobe.
-Hopefully [my revival](https://limborev.cf) will be good enough for the ORC Community.
+Hopefully [my revival](https://limbrev.cf) will be good enough for the ORC Community.
 
 ## Usage
 1. Download `injector.exe` and `limbofpsunlocker.dll` into the same folder
